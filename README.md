@@ -1,27 +1,17 @@
 # MicroAppFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+Esse é um projeto de exemplo de como rodar uma aplicação micro frontend em Angular.
 
-## Development server
+## Ambiente de desenvolvimento
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Para ambiente de desenvolvimento é necessário:
 
-## Code scaffolding
+- Instalar o yarn (npm install --global yarn).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Alterar o angular cli para buildar utilizando o yarn ng config -g cli.packageManager yarn
 
-## Build
+## Rodando a aplicação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Após instalar os pacotes **yarn install**, é necessário rodar a aplicacão junto com a [**micro-lean-inicializacao**](https://github.com/onilink128/micro-lean-inicializacao).
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Após realizados esses passos a aplicação deve ser subir na url http://localhost:4200
